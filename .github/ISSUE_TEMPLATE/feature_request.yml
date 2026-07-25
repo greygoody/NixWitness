@@ -1,0 +1,61 @@
+name: Feature or design proposal
+description: Propose a bounded capability or contract change
+title: "proposal: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or failure mode
+      description: What concrete problem exists, and who consumes the result?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe behavior, not only an implementation preference.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Acceptance evidence
+      description: What executable witness would show that this works?
+    validations:
+      required: true
+  - type: dropdown
+    id: authority
+    attributes:
+      label: Maximum authority
+      options:
+        - pure
+        - read-workspace
+        - evaluate-nix
+        - build-nix
+        - observe-host
+        - mutate-temporary
+        - activate
+        - promote
+        - unknown
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: public_example
+    attributes:
+      label: Public-safe example
+      description: Provide a synthetic or public example when possible.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This proposal is specific to Nix or NixOS verification rather than a generic workflow engine.
+          required: true
+        - label: The proposal does not require publishing private operational data.
+          required: true
