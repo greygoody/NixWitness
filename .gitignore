@@ -1,0 +1,30 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Nix
+/result
+/result-*
+.direnv/
+
+# NixWitness local state
+.nixwitness/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+
+# Coverage and temporary output
+coverage/
+.tmp/
+tmp/
