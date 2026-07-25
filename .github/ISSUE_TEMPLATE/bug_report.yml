@@ -1,0 +1,61 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Do not include credentials, private host data, or vulnerability details. Use the private security process for security issues.
+  - type: input
+    id: revision
+    attributes:
+      label: Version or commit
+      description: Release version or exact commit SHA
+      placeholder: 0123456789abcdef...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Public-safe Nix, platform, and toolchain details
+      placeholder: Nix version, operating system, architecture
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide the smallest public-safe example and commands
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant output
+      description: Include bounded output with secrets and private paths removed
+      render: text
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-safety confirmation
+      options:
+        - label: I removed credentials, private paths, host identities, and confidential data.
+          required: true
+        - label: This is not a vulnerability report.
+          required: true
