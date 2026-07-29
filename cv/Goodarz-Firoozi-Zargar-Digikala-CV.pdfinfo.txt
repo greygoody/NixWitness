@@ -1,0 +1,20 @@
+Title:           Goodarz Firoozi Zargar - Senior Full Stack Engineer - Automation and AI Platforms
+Subject:         Digikala application CV
+Keywords:        
+Author:          Goodarz Firoozi Zargar
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.25
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       103949 bytes
+Optimized:       no
+PDF version:     1.5

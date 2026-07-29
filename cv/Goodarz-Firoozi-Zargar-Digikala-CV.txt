@@ -1,0 +1,81 @@
+                                  Goodarz Firoozi Zargar
+                          Senior Full Stack Engineer | Automation & AI Platforms
+                                  Tehran, Iran | +98 937 093 8991 | gf.fantom@gmail.com
+                                   linkedin.com/in/goodarzfiroozi | github.com/greygoody
+
+PROFILE
+Senior systems-oriented full-stack engineer building automation products, AI-assisted workflows, and developer
+infrastructure. Turns ambiguous operational work into inspectable software with durable state, explicit review
+and approval, recoverable execution, and deliberately bounded side effects. Hands-on across TypeScript/Node.js,
+Python/FastAPI, React/Next.js/SvelteKit, Rust, PostgreSQL, Docker, Linux, and Nix.
+CORE TECHNOLOGIES
+Backend & Full Stack: TypeScript, Node.js, Python, FastAPI, React, Next.js, SvelteKit, SQL, PostgreSQL, REST
+APIs
+Automation & AI Platforms: MCP, LangGraph, XState, pgvector/RAG, background workers, structured generation,
+human-in-the-loop workflows
+Systems & Delivery: Rust, async and event-driven design, Docker/OCI, Compose, Nix/NixOS, Linux, CI/CD,
+Git/GitHub, self-hosted infrastructure
+PROFESSIONAL EXPERIENCE
+Virtual Production & AI Systems Engineer | Rastaar
+March 2025 - April 2026 | Tehran / Hybrid
+• Served as technical lead for a six-month Unreal Engine virtual-production integration connecting cinematic scene
+  systems, tracked cameras, synchronization, live compositing, distributed computers, and production workflows.
+• Built Blueprint-based cinematic-scene systems with granular on-demand level loading and cloud-connected
+  Git/Perforce workflows for distributed art and engineering contributors.
+• Integrated and stabilized tracked RED and ARRI ALEXA workflows across VIVE Mars, ReTracker, and Mo-Sys
+  systems, including genlock, calibration, drift control, parallax reduction, and hybrid live/post tracking.
+• Contributed to GrandMaster, an AI-assisted game-narrative platform, by prototyping generation, review, backend,
+  and product boundaries that translated creative workflows into explicit software behavior.
+Founder & Creative Systems Engineer | Ctudio
+February 2019 - Present | Tehran, Iran
+• Lead an independent creative-systems and technical R&D practice spanning real-time software, internal tools,
+  interactive systems, and controlled AI-assisted engineering.
+• Build and maintain Linux, Docker, Git, VPS, storage, networking, and remote-development infrastructure for
+  distributed creative and engineering work.
+• Design proof-oriented Rust, TypeScript, and Python systems with explicit contracts, persisted state, testable
+  boundaries, human approval, and inspectable outputs.
+SELECTED ENGINEERING PROJECTS
+Multi-Tenant Sports Club Platform
+Rust / Axum / Tokio | PostgreSQL | SvelteKit / TypeScript | Docker | Nix | Hosted demo
+• Designed and delivered an evaluation-ready multi-tenant court-booking and matchmaking platform from an external
+  product brief, combining a tested Rust backend with a hosted TypeScript product surface.
+• Modeled tenant-scoped authority, durable PostgreSQL state, booking behavior, and application boundaries; added
+  unit, integration, API, and concurrency tests.
+• Built branded member experiences for court availability, booking selection, player matching, fee sharing, events,
+  tenant switching, progress, and separate member/admin views.
+• Kept the implementation private while publishing a product demonstration that can be evaluated without transferring
+  source ownership.
+Goodarz Firoozi Zargar | Senior Full Stack Engineer | Automation & AI Platforms
+
+SELECTED ENGINEERING PROJECTS, CONTINUED
+Energy Ops Intel
+Python / FastAPI | Next.js | PostgreSQL / pgvector | LangGraph | Dramatiq / Redis | MinIO | Docker
+• Built a private full-stack operational-intelligence platform with a FastAPI backend, Next.js operator workbench,
+  PostgreSQL/pgvector, background workers, object storage, and reproducible local environments.
+• Designed a durable AI-assisted contract-review workflow that separates immutable source evidence, typed model
+  proposals, persisted checkpoints, operator decisions, and authoritative application state.
+• Added exact evidence-offset validation, interrupt-and-resume review, approve/edit/reject/request-more-evidence
+  decisions, and materialization only after explicit human authorization.
+• Maintains a deterministic portfolio demonstration using fictional and sanitized data, without claiming customer
+  deployment, production security, or live-provider reliability.
+Shelf Platform
+Rust | TypeScript / Node.js | React / Expo | Versioned Commerce Operations | Private Independent Project
+• Developing an independently owned commerce-operations platform that separates accepted item facts from inventory
+  state and supports guarded human and AI-assisted changes.
+• Built a Rust state and contract layer with expected-version updates, deterministic context packets, typed rejection,
+  concurrency protection, and explicit authority boundaries.
+• Added TypeScript operator applications and a runtime boundary for capture, tasks, approvals, events, and
+  adapter-based external integrations, while keeping marketplace-specific implementations non-public.
+NixWitness
+Rust | Nix/NixOS | Evidence-Guided Verification | github.com/greygoody/NixWitness
+• Developing a Rust verification system for deterministic Nix environment inspection and evidence-guided validation of
+  changed projects and system definitions.
+• The public repository exposes the reviewed open-source project boundary and public-safe foundation; host-specific
+  proving and unreleased implementation remain private.
+EDUCATION
+B.Sc. Applied Mathematics | Kharazmi University | 2018
+High School Diploma, Mathematics | SAMPAD | 2007 - 2014
+PORTFOLIO BOUNDARY
+Private project source is available only through a bounded technical review when appropriate. Hosted demonstrations,
+sanitized walkthroughs, and public-safe documentation are used for initial evaluation.
+

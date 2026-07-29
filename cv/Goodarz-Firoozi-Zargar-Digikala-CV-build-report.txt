@@ -1,0 +1,7 @@
+Build status: success
+Pages:           2
+Page size:       595.276 x 841.89 pts (A4)
+File size:       103949 bytes
+PDF version:     1.5
+Layout warnings:
+none
