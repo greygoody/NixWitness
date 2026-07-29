@@ -1,0 +1,162 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1.70cm,top=1.50cm,bottom=1.55cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{needspace}
+
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+
+\definecolor{navy}{HTML}{183A5A}
+\definecolor{teal}{HTML}{256A70}
+\definecolor{text}{HTML}{20262D}
+\definecolor{muted}{HTML}{4F5964}
+\definecolor{rule}{HTML}{B6C0C9}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=navy,
+  linkcolor=navy,
+  pdfauthor={Goodarz Firoozi Zargar},
+  pdftitle={Goodarz Firoozi Zargar - Senior Full Stack Engineer - Automation and AI Platforms},
+  pdfsubject={Digikala application CV}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\color{text}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+
+\setlist[itemize]{
+  leftmargin=1.17em,
+  itemsep=0.34em,
+  topsep=0.28em,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\cvsection}[1]{%
+  \Needspace{4\baselineskip}%
+  \vspace{0.42em}%
+  {\fontsize{10.2}{11.9}\selectfont\bfseries\color{navy}\MakeUppercase{#1}}\par
+  \vspace{0.16em}\color{rule}\hrule\color{text}\vspace{0.30em}%
+}
+
+\newcommand{\cventry}[4]{%
+  \Needspace{6\baselineskip}%
+  {\fontsize{10.35}{12.1}\selectfont\bfseries #1} {\color{teal}\bfseries | #2}\par
+  {\fontsize{9.20}{10.8}\selectfont\color{muted}#3 | #4}\par
+}
+
+\newcommand{\project}[2]{%
+  \Needspace{6\baselineskip}%
+  {\fontsize{10.35}{12.1}\selectfont\bfseries\color{navy}#1}\par
+  {\fontsize{9.05}{10.6}\selectfont\color{muted}\bfseries #2}\par
+}
+
+\newcommand{\pageidentity}{%
+  {\fontsize{8.45}{9.9}\selectfont\color{muted}Goodarz Firoozi Zargar | Senior Full Stack Engineer | Automation \& AI Platforms}\par
+  \vspace{0.25em}\color{rule}\hrule\color{text}\vspace{0.38em}%
+}
+
+\begin{document}
+\fontsize{10.25}{12.45}\selectfont
+
+\begin{center}
+  {\fontsize{21}{23}\selectfont\bfseries\color{navy}Goodarz Firoozi Zargar}\par
+  \vspace{0.10em}
+  {\fontsize{11.25}{13.1}\selectfont\bfseries\color{teal}Senior Full Stack Engineer | Automation \& AI Platforms}\par
+  \vspace{0.24em}
+  {\fontsize{9.05}{10.7}\selectfont\color{muted}
+  Tehran, Iran | \href{tel:+989370938991}{+98 937 093 8991} | \href{mailto:gf.fantom@gmail.com}{gf.fantom@gmail.com}}\par
+  {\fontsize{9.05}{10.7}\selectfont
+  \href{https://www.linkedin.com/in/goodarzfiroozi}{linkedin.com/in/goodarzfiroozi} | \href{https://github.com/greygoody}{github.com/greygoody}}
+\end{center}
+
+\cvsection{Profile}
+
+Senior systems-oriented full-stack engineer building automation products, AI-assisted workflows, and developer infrastructure. Turns ambiguous operational work into inspectable software with durable state, explicit review and approval, recoverable execution, and deliberately bounded side effects. Hands-on across TypeScript/Node.js, Python/FastAPI, React/Next.js/SvelteKit, Rust, PostgreSQL, Docker, Linux, and Nix.
+
+\cvsection{Core Technologies}
+
+\textbf{Backend \& Full Stack:} TypeScript, Node.js, Python, FastAPI, React, Next.js, SvelteKit, SQL, PostgreSQL, REST APIs\\
+\textbf{Automation \& AI Platforms:} MCP, LangGraph, XState, pgvector/RAG, background workers, structured generation, human-in-the-loop workflows\\
+\textbf{Systems \& Delivery:} Rust, async and event-driven design, Docker/OCI, Compose, Nix/NixOS, Linux, CI/CD, Git/GitHub, self-hosted infrastructure
+
+\cvsection{Professional Experience}
+
+\cventry{Virtual Production \& AI Systems Engineer}{Rastaar}{March 2025 - April 2026}{Tehran / Hybrid}
+\begin{itemize}
+  \item Served as technical lead for a six-month Unreal Engine virtual-production integration connecting cinematic scene systems, tracked cameras, synchronization, live compositing, distributed computers, and production workflows.
+  \item Built Blueprint-based cinematic-scene systems with granular on-demand level loading and cloud-connected Git/Perforce workflows for distributed art and engineering contributors.
+  \item Integrated and stabilized tracked RED and ARRI ALEXA workflows across VIVE Mars, ReTracker, and Mo-Sys systems, including genlock, calibration, drift control, parallax reduction, and hybrid live/post tracking.
+  \item Contributed to GrandMaster, an AI-assisted game-narrative platform, by prototyping generation, review, backend, and product boundaries that translated creative workflows into explicit software behavior.
+\end{itemize}
+
+\vspace{0.05em}
+\cventry{Founder \& Creative Systems Engineer}{Ctudio}{February 2019 - Present}{Tehran, Iran}
+\begin{itemize}
+  \item Lead an independent creative-systems and technical R\&D practice spanning real-time software, internal tools, interactive systems, and controlled AI-assisted engineering.
+  \item Build and maintain Linux, Docker, Git, VPS, storage, networking, and remote-development infrastructure for distributed creative and engineering work.
+  \item Design proof-oriented Rust, TypeScript, and Python systems with explicit contracts, persisted state, testable boundaries, human approval, and inspectable outputs.
+\end{itemize}
+
+\cvsection{Selected Engineering Projects}
+
+\project{Multi-Tenant Sports Club Platform}{Rust / Axum / Tokio | PostgreSQL | SvelteKit / TypeScript | Docker | Nix | \href{https://multi-tenant-padle-club-z29muw8ur-screensurfers-projects.vercel.app/play-lab}{Hosted demo}}
+\begin{itemize}
+  \item Designed and delivered an evaluation-ready multi-tenant court-booking and matchmaking platform from an external product brief, combining a tested Rust backend with a hosted TypeScript product surface.
+  \item Modeled tenant-scoped authority, durable PostgreSQL state, booking behavior, and application boundaries; added unit, integration, API, and concurrency tests.
+  \item Built branded member experiences for court availability, booking selection, player matching, fee sharing, events, tenant switching, progress, and separate member/admin views.
+  \item Kept the implementation private while publishing a product demonstration that can be evaluated without transferring source ownership.
+\end{itemize}
+
+\newpage
+\pageidentity
+
+\cvsection{Selected Engineering Projects, Continued}
+
+\project{Energy Ops Intel}{Python / FastAPI | Next.js | PostgreSQL / pgvector | LangGraph | Dramatiq / Redis | MinIO | Docker}
+\begin{itemize}
+  \item Built a private full-stack operational-intelligence platform with a FastAPI backend, Next.js operator workbench, PostgreSQL/pgvector, background workers, object storage, and reproducible local environments.
+  \item Designed a durable AI-assisted contract-review workflow that separates immutable source evidence, typed model proposals, persisted checkpoints, operator decisions, and authoritative application state.
+  \item Added exact evidence-offset validation, interrupt-and-resume review, approve/edit/reject/request-more-evidence decisions, and materialization only after explicit human authorization.
+  \item Maintains a deterministic portfolio demonstration using fictional and sanitized data, without claiming customer deployment, production security, or live-provider reliability.
+\end{itemize}
+
+\vspace{0.22em}
+\project{Shelf Platform}{Rust | TypeScript / Node.js | React / Expo | Versioned Commerce Operations | Private Independent Project}
+\begin{itemize}
+  \item Developing an independently owned commerce-operations platform that separates accepted item facts from inventory state and supports guarded human and AI-assisted changes.
+  \item Built a Rust state and contract layer with expected-version updates, deterministic context packets, typed rejection, concurrency protection, and explicit authority boundaries.
+  \item Added TypeScript operator applications and a runtime boundary for capture, tasks, approvals, events, and adapter-based external integrations, while keeping marketplace-specific implementations non-public.
+\end{itemize}
+
+\vspace{0.22em}
+\project{NixWitness}{Rust | Nix/NixOS | Evidence-Guided Verification | \href{https://github.com/greygoody/NixWitness}{github.com/greygoody/NixWitness}}
+\begin{itemize}
+  \item Developing a Rust verification system for deterministic Nix environment inspection and evidence-guided validation of changed projects and system definitions.
+  \item The public repository exposes the reviewed open-source project boundary and public-safe foundation; host-specific proving and unreleased implementation remain private.
+\end{itemize}
+
+\cvsection{Education}
+
+\textbf{B.Sc. Applied Mathematics} | Kharazmi University | 2018\\
+\textbf{High School Diploma, Mathematics} | SAMPAD | 2007 - 2014
+
+\cvsection{Portfolio Boundary}
+
+Private project source is available only through a bounded technical review when appropriate. Hosted demonstrations, sanitized walkthroughs, and public-safe documentation are used for initial evaluation.
+
+\end{document}
